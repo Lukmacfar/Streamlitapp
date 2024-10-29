@@ -1,0 +1,35 @@
+Installing Bioread
+##################
+
+>Create a separate python 3.6 environment
+
+conda create -y -n py36 python=3.6 ipykernel
+
+to list existing environments
+
+conda env list
+
+> Deactivate all current environments
+
+conda deactivate (several times)
+
+> Activate the new environment
+
+conda activate py36
+
+> Install Bioread
+
+conda install -c auto bioread
+
+pip install bioread
+
+
+
+
+> To remove an environment
+
+conda remove -n enVname --all
+
+> To update conda
+
+conda update conda
